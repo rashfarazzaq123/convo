@@ -26,3 +26,5 @@ class RNN(nn.Module):
     def init_hidden(self,batch_size):
         hidden=torch.zeros(self.num_layers,batch_size,self.hidden_size).to(device)
         return hidden
+
+    #TEST
