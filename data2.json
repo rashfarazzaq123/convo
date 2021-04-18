@@ -1,0 +1,173 @@
+{
+    "data":[
+    {
+        "tag":"greeting",
+        "user_responses":[
+            "Hi",
+            "Hello",
+            "Hey!",
+            "Good morning!",
+            "Good afternoon!"
+        ],
+        "bot_responses":[
+            "Hey",
+            "Hello",
+            "Hi!"
+        ]
+    },
+    {
+        "tag":"goodbye",
+        "user_responses":[
+            "See you",
+            "Bye",
+            "Bye,see you soon",
+            "Goodbye!",
+            "Ok,see you!",
+            "Ok, meet you there.",
+            "Bye, hope to see you there"
+        ],
+        "bot_responses":[
+            "Goodbye",
+            "Have a nice day!",
+            "Goodbye,see you later..."
+        ]
+    },
+    {
+        "tag":"where",
+        "user_responses":[
+            "Where are you from?",
+            "Where do you live?",
+            "Do you live around here?",
+            "Are you from around here?",
+            "Do you live closeby?"
+        ],
+        "bot_responses":[
+            "I live closeby."
+        ]
+    },
+    {
+        "tag":"subject",
+        "user_responses":[
+            "What are you majoring in?",
+            "What is your major?",
+            "What classes are you taking?",
+            "What subjects are you taking?",
+            "What subjects are you doing?",
+            "What subjects have you selected?",
+            "What optional subjects are you taking."
+        ],
+        "bot_responses":[
+            "I'm currently following the Computer Science degree programme. I have currently selected Machine Learning and Usability testing as optional subjects.",
+            "I'm majoring in Computer Science. I have currently selected Machine Learning and Usability testing."
+        ]
+    },
+    {
+        "tag":"school",
+        "user_responses":[
+            "What high school did you attend?",
+            "What school did you go to?",
+            "What is your school?",
+            "What highschool are you from?",
+            "What school are you from?",
+            "What highschool did you go to?"
+        ],
+        "bot_responses":[
+            "I went to LN High School."
+        ]
+    },
+    {
+        "tag":"year",
+        "user_responses":[
+            "What year are you?",
+            "What year are you from?",
+            "Are you from first year?",
+            "Are you from second year?",
+            "Are you from third year?",
+            "Are you from fourth year?",
+            "In what year are you currently in?",
+            "Are you in the first year?"
+        ],
+        "bot_responses":[
+            "I'm currently in my second year."
+        ]
+    },
+    {
+        "tag":"name",
+        "user_responses":[
+            "What is your name?",
+            "Your name?",
+            "Can I know your name?",
+            "Hi, what is your name?",
+            "Hey, what is your name?",
+            "My name is",
+            "I am ",
+            "I am , and you are?",
+            "My name is, What is yours?"
+        ],
+        "bot_responses":[
+            "My name is Convo, nice to meet you!"
+
+        ]
+    },
+    {
+        "tag":"extra",
+        "user_responses":[
+            "Do you do any extra curricular activities?",
+            "Do you do any sports?",
+            "Are you in any club or society?",
+            "What is a  good club can I join here?",
+            "What society can I join here?",
+            "Any sport you are doing?",
+            "What sport should I play here?"
+        ],
+        "bot_responses":[
+            "You should try joining the Rotaract Club. I play Soccer, you can join too."
+
+        ]
+    },
+    {
+        "tag":"places",
+        "user_responses":[
+            "Where is the best place to hang out?",
+            "Do you know any cool places to hang out?",
+            "Do you know any good places to visit around here?",
+            "Do you know any places to hangout?",
+            "Do you know any places we could meetup later?",
+            "Where should we hangout later?",
+            "Where should we meetup?",
+            "Any places to hangout?",
+            "We should meet up soon.",
+            "What can I do around here?",
+            "How can I spend my free time here?",
+            "Any places I should visit here?",
+            "What fun places are around here.",
+            "What places can you visit around here?",
+            "Any good places to visit?"
+        ],
+        "bot_responses":[
+            "There are some cool cafes nearby, hope we can meet up there soon. Also you should try going to the arcade closeby."
+        ]
+    },
+    {
+        "tag":"meet",
+        "user_responses":[   
+            "Ok, I will.",
+            "Ok, let's meet up there",
+            "We should go there sometime",
+            "You want to go there",
+            "You want to come?",
+            "Ok, you want to come?",
+            "Sure",
+            "Ok, sure",
+            "Sure, want to come?",
+            "When can we meet again?",
+            "When should we meet?",
+            "So, when should we meetup?",
+            "When should we meetup?"
+        ],
+        "bot_responses":[
+            "Let's meet at the arcade this Saturday."
+        ]
+    }
+    ]
+}

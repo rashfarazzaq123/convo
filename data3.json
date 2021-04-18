@@ -1,0 +1,148 @@
+{
+    "data": [
+    {
+        "tag": "greeting",
+        "user_responses": [
+            "Hi",
+            "Hello",
+            "Hey!",
+            "Good morning!",
+            "Good afternoon!"
+        ],
+        "bot_responses": [
+            "Hey",
+            "Hello",
+            "Hi"
+        ]
+    },
+    {
+        "tag": "song",
+        "user_responses":[
+            "What’s your favourite song?",
+            "Do you have a favourite song?",
+            "What song do you listen to these days?"
+        ],
+        "bot_responses":[
+            "Well, that all depends on the mood I am in."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "user_responses": [
+            "Thank you for talking",
+            "Bye",
+            "Thank a lot!",
+            "Goodbye!"
+        ],
+        "bot_responses": [
+            "Goodbye",
+            "Have a nice day!",
+            "See you later..."
+        ]
+    },
+    {
+        "tag":"how are you",
+        "user_responses":[
+            "What's up?",
+            "What's new?",
+            "What's new with you?",
+            "How have you been?",
+            "How's everything?",
+            "What's going on?",
+            "How's it going?",
+            "How's your day going?",
+            "You all right?"            
+        ],
+        "bot_responses":[
+            "I’m doing well, thanks for asking. How about yourself?"
+        ]
+    },
+    {
+        "tag":"day",
+        "user_responses":[
+            "I’m doing well",
+            "I’m doing fine",
+            "I'm good",
+            "I'm well",
+            "Pretty good",
+            "Not too bad",
+            "I’ve been better",
+            "I'm Alive"
+        ],
+        "bot_responses":[
+            "Great, Happy to hear!"
+        ]
+    },
+    {
+        "tag":"reading",
+        "user_responses":[
+            "What are you currently reading?",
+            "Do you read?",
+            "Do you like reading?",
+            "What’s your favorite book?"
+        ],
+        "bot_responses":[
+            "Yes! Currently I am reading The Power of Now from Eckhart Tolle."
+        ]
+    },
+    {
+        "tag":"movie",
+        "user_responses":[
+            "What’s the last film you watched?",
+            "What is your favorite movie?"
+        ],
+        "bot_responses":[
+            "It's Godzilla vs Kong, I love Godzilla, I love Kong. The battle is very entertaining and breathtaking.",
+            "AVATAR It is!"
+        ]
+    },
+    {
+        "tag": "indoor",
+        "user_responses":[
+            "What’s your favorite indoor activity?",
+            "Do you have any hobbies?",
+            "What are your hobbies?"
+        ],
+        "bot_responses":[
+            "Listening to Music and Maintaining the Peace of Mind!"
+        ]
+    },
+    {
+        "tag": "travel",
+        "user_responses":[
+            "Where would you most like to travel next?",
+            "Where do you like to travel?"
+        ],
+        "bot_responses":[
+            "To the Moon! Would you like to join?"
+        ]
+    },
+    {
+        "tag": "bot colour",
+        "user_responses":[
+            "What is your favourite colour?"
+        ],
+        "bot_responses":[
+            "White, Because it represents the most complete and pure of colors"
+        ]
+    }
+    
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

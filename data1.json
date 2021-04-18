@@ -1,0 +1,157 @@
+{
+    "data":[
+    {
+        "tag":"greeting",
+        "user_responses":[
+            "Hi",
+            "Hello",
+            "Hey!",
+            "Good morning!",
+            "Good afternoon!"
+        ],
+        "bot_responses":[
+            "Hey",
+            "Hello, What can I do for you?",
+            "Hi, How can I help you?",
+            "Hello! How may I help you."
+        ]
+    },
+    {
+        "tag":"goodbye",
+        "user_responses":[
+            "Thank you",
+            "Bye",
+            "Thank a lot!",
+            "Goodbye!"
+        ],
+        "bot_responses":[
+            "Your welcome",
+            "Goodbye",
+            "Have a nice day!",
+            "See you later..."
+        ]
+    },
+    {
+        "tag":"menu",
+        "user_responses":[
+            "What's on the menu?",
+            "Do you have anything special?",
+            "What can I get?"
+        ],
+        "bot_responses":[
+            "We have coffee and milkshakes.What would you like to have?"
+        ]
+    },
+    {
+        "tag":"coffee",
+        "user_responses":[
+            "Can I order a coffee?",
+            "Can I get a coffee?",
+            "Do u have coffee?",
+            "Do You have Black Coffee,Cappuccino,Iced Coffee?"
+        ],
+        "bot_responses":[
+            "Yes, we have Black Coffee,Cappuccino and Iced Coffee."
+        ]
+    },
+    {
+        "tag":"milkshakes",
+        "user_responses":[
+            "Can I order a milkshake?",
+            "Can I get a milkshake?",
+            "Do you have any milkshakes?",
+            "Do you have Chocolate,Vanilla and Oreo milkshakes?"
+        ],
+        "bot_responses":[
+            "Yes, we have Chocolate,Vanilla and Oreo milkshakes."
+        ]
+    },
+    {
+        "tag":"suggest",
+        "user_responses":[
+            "What can I get?",
+            "Any suggestions?"
+        ],
+        "bot_responses":[
+            "May I suggest a Black Coffee?",
+            "May I suggest a Chocolate milkshake?",
+            "Do you like to have a Cappuccino?"
+        ]
+    },
+    {
+        "tag":"price",
+        "user_responses":[
+            "How much is it?",
+            "What is the price of it?"
+        ],
+        "bot_responses":[
+            "You can enjoy it at just Rs. 180 each",
+            "You can enjoy it at just Rs. 200 each"
+        ]
+    },
+    {
+        "tag":"hours",
+        "user_responses":[
+            "When are you open?",
+            "What are your open hours?",
+            "Hours of operation?"
+        ],
+        "bot_responses":[
+            "We are open 7am to 4pm, Monday to Friday!"
+        ]
+    },
+    {
+        "tag":"order",
+        "user_responses":[   
+            "I'll order one coffee.",
+            "Black coffee",
+            "Iced Coffee",
+            "Cappuccino",
+            "I will have a coffee.",
+            "I need a black coffee",
+            "I want an iced coffee.",
+            "I need an iced coffee",
+            "I want a milkshake.",
+            "I'll order one milkshake",
+            "I will have a milkshake",
+            "I need a milkshake",
+            "Chocolate milkshake",
+            "Vanilla milkshake",
+            "Oreo milkshake",
+            "One Cappuccino please",
+            "One chocolate milkshake please",
+            "Can I get 2 iced coffees?",
+            "Two iced coffees please",
+            "Can I get three iced coffees?",
+            "Can I get 4 oreo milkshakes please.",
+            "Can I get four cappuccinos please.",
+            "Two cappuccinos please",
+            "I need two cappuccinos",
+            "2 cappuccinos please"
+        ],
+        "bot_responses":[
+            "Sure! Anything else?"
+        ]
+    },
+    {
+        "tag":"confirm",
+        "user_responses":[
+            "No",
+            "No, all good.",
+            "That's all",
+            "That is all",
+            "That is it",
+            "No, that is all",
+            "No, that's all",
+            "No, that is it.",
+            "That's all",
+            "That will be all",
+            "No, that is all I need",
+            "That's all I need"
+        ],
+        "bot_responses":[
+            "Thank you for your order. Please wait for sometime"
+        ]
+    }
+    ]
+}
