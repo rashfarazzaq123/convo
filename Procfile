@@ -1,1 +1,1 @@
-web: gunicorn convo:app
+web: gunicorn app:app
