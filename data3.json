@@ -7,123 +7,168 @@
             "Hello",
             "Hey!",
             "Good morning!",
-            "Good afternoon!"
+            "Good afternoon!",
+            "Excuse me"
         ],
         "bot_responses": [
-            "Hey",
             "Hello",
             "Hi"
         ]
     },
     {
-        "tag": "song",
+        "tag":"askingDirection",
         "user_responses":[
-            "What’s your favourite song?",
-            "Do you have a favourite song?",
-            "What song do you listen to these days?"
+            "Excuse me! Can you tell me the way to the museum?",
+            "Excuse me! How do I get to the post office?",
+            "Pardon me! I’m lost. How do I get to the cafe?",
+            "Please tell me how I get to your apartment?",
+            "Excuse me! Is there a hospital near here?",
+            "What’s the best way to supermarket?",
+            "Excuse me! Could you tell me how to get to bookstore?",
+            "Excuse me! Do you know where the church?",
+            "Could you help me, please? I’m looking for the bank.",
+            "Are we on the right road to Louis Hotel?",
+            "Is this the right way to  Resort?",
+            "Do you have a map?",
+            "Can you show me on the map?",
+            "Where is the chemist?",
+            "Can you give me directions to the nearest bus stop?",
+            "Where can I find the nearest bakery?",
+            "Is there a supermarket near here?",
+            "Is there a sports shop around here?",
+            "Can you tell me how to get to the bookstore from here?",
+            "What’s the easiest way to get to the nearest cinema from here?",
+            " Excuse me! Where is the airport?",
+            " Which road should I take to get to library?",
+            " In which direction is the nearest Gas Station?",
+            "Can you show me which way to go using the map?",
+            "Can I follow you?",
+            "Could you please guide me?",
+            "What direction should I take?",
+            "Can you tell me the best way of getting to your office?",
+            "Which way do I go to get to the beach?",
+            "What’s the quickest way of getting to the supermarket?",
+            "How do you get to the bus stop?",
+            "I am looking for this address, am I in the right place?",
+            "Does this bus go to the center?",
+            " Do you know the train station?",
+            "Sorry to bother you, but would you mind showing me the way to post office?",
+            "May I ask where the Marriott Hotel is?",
+            "Could you please point me in the direction of the Times Square?",
+            "Excuse me! I’m lost. Could you please help me find the 5th Avenue?",
+            "Excuse me! Can you help me find Liam Primary School? This is my first time in the city",
+            "Sorry to disturb you, but I’m lost. I’m looking for the Sydney Opera House.",
+            "I wonder if you could help me? I’m looking for the nearest bank.",
+            "Excuse me! Could you tell me where the closest bank is?",
+            "Excuse me! Please could you tell me the way to Fairfax Street?",
+            "Do you know where the closest post office is?",
+            "Am I heading in the right direction to the police station?",
+            " Am I on the right road to the Blackbird restaurant?",
+            "Am I close to hospital?",
+            "Excuse me! I’m afraid I can’t find a petrol station. Do you know where one is?",
+            "Excuse me! Could you give me a few direction? I am lost way.",
+            "Will you please tell me where the library is?",
+            "Would you show me the way to the clothes shop?",
+            "May I ask for some help? I need to get to the CN Tower.",
+            "May I ask you how to get to the Eaton Centre?",
+            "How do I find the Thai restaurant?"
+
         ],
         "bot_responses":[
-            "Well, that all depends on the mood I am in."
+            "It is this way.",
+            "It is that way.",
+            "You are going the wrong way.",
+            "You are going in the wrong direction.",
+            "Take the first left.",
+            "Take the second right.",
+            "Turn right at the crossroads.",
+            "Continue straight ahead for about a mile.",
+            " Continue past the primary school.",
+            "It will be on your left.",
+            "It will be on your right.",
+            "Take this road.",
+            "Go down there.",
+            "It will be straight ahead of you.",
+            "Go straight ahead.",
+            "Go along the street.",
+            "Turn left.",
+            "Turn right.",
+            "It is on the corner, across from the cafe.",
+            "It is opposite the bank.",
+            "It is near.",
+            "It is the first turning on the right after the bank.",
+            "Go straight ahead at the traffic lights.",
+            " Keep going straight ahead; you will see it on the right.",
+            "Take a right at the junction.",
+            "Take a left at the junction.",
+            "Cross the taxi rank and you are there.",
+            "Make a left turn when you see the bookshop.",
+            "Take the first left when you enter Steven Road.",
+            "Take the second exit at the T- junction and then turn right at the traffic lights.",
+            "When you get to Paris Street, take your next right.",
+            "After you pass a restaurant on your left, take a right at the crossroad.",
+            "Turn left at the end of the corridor.",
+            "Take a left when you come to the main street.",
+            "Round the corner from the post office.",
+            "It is behind the hospital.",
+            "It is between our office and the supermarket.",
+            "It is in front of the bus station.",
+            "It is in the centre of the town.",
+            "Turn left at the intersection and the building is on the right.",
+            "Go as far as the roundabout.",
+            "Go across the bridge.",
+            "Go straight and turn right after the petrol station.",
+            "Turn right at the end of the road and my house is number 67.",
+            "Cross the junction and keep going for about 1 mile.",
+            "Drive to Paris Street and turn left."
         ]
     },
     {
-        "tag": "goodbye",
-        "user_responses": [
-            "Thank you for talking",
+        "tag":"goodbye",
+        "user_responses":[
+            "Thank you",
             "Bye",
             "Thank a lot!",
             "Goodbye!"
+
         ],
-        "bot_responses": [
+        "bot_responses":[
+            "Your welcome",
             "Goodbye",
             "Have a nice day!",
             "See you later..."
         ]
     },
     {
-        "tag":"how are you",
+        "tag":"howFar",
         "user_responses":[
-            "What's up?",
-            "What's new?",
-            "What's new with you?",
-            "How have you been?",
-            "How's everything?",
-            "What's going on?",
-            "How's it going?",
-            "How's your day going?",
-            "You all right?"            
+            "Is it far (from here)?",
+           "How far is it to the airport?",
+           "How far is it to the park from here?",
+           "How long does it take to get there?",
+           "How close is it?"
+
+
         ],
         "bot_responses":[
-            "I’m doing well, thanks for asking. How about yourself?"
-        ]
-    },
-    {
-        "tag":"day",
-        "user_responses":[
-            "I’m doing well",
-            "I’m doing fine",
-            "I'm good",
-            "I'm well",
-            "Pretty good",
-            "Not too bad",
-            "I’ve been better",
-            "I'm Alive"
-        ],
-        "bot_responses":[
-            "Great, Happy to hear!"
-        ]
-    },
-    {
-        "tag":"reading",
-        "user_responses":[
-            "What are you currently reading?",
-            "Do you read?",
-            "Do you like reading?",
-            "What’s your favorite book?"
-        ],
-        "bot_responses":[
-            "Yes! Currently I am reading The Power of Now from Eckhart Tolle."
-        ]
-    },
-    {
-        "tag":"movie",
-        "user_responses":[
-            "What’s the last film you watched?",
-            "What is your favorite movie?"
-        ],
-        "bot_responses":[
-            "It's Godzilla vs Kong, I love Godzilla, I love Kong. The battle is very entertaining and breathtaking.",
-            "AVATAR It is!"
-        ]
-    },
-    {
-        "tag": "indoor",
-        "user_responses":[
-            "What’s your favorite indoor activity?",
-            "Do you have any hobbies?",
-            "What are your hobbies?"
-        ],
-        "bot_responses":[
-            "Listening to Music and Maintaining the Peace of Mind!"
-        ]
-    },
-    {
-        "tag": "travel",
-        "user_responses":[
-            "Where would you most like to travel next?",
-            "Where do you like to travel?"
-        ],
-        "bot_responses":[
-            "To the Moon! Would you like to join?"
-        ]
-    },
-    {
-        "tag": "bot colour",
-        "user_responses":[
-            "What is your favourite colour?"
-        ],
-        "bot_responses":[
-            "White, Because it represents the most complete and pure of colors"
+           "It’s not far (from here).",
+          "Is it a long way?",
+          "It’s a long way on foot.",
+          "It’s a long way to walk.",
+          "It’s quite a long way.",
+          "It’s pretty far from here.",
+          "It’s about a mile from here.",
+          "It’s not far, maybe about 200 yards.",
+          "It’s just around the corner.",
+          "It takes a while.",
+          "It takes about a half-hour.",
+          "It’s about a five minute walk.",
+          "It’s about a twenty-minute bus ride.",
+          "It’s quite close.",
+          "I’m sorry, I don’t know.",
+          "Sorry, I’m not from around here.",
+          "I’m sorry! I’m not from here! You’ll have to ask someone else.",
+         "Follow me. I’ll show you the way."
         ]
     }
     

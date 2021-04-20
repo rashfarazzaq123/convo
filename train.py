@@ -4,9 +4,9 @@ import torch.nn as nn
 from torch.utils.data import DataLoader,Dataset
 import numpy as np
 from pre_processing import normalization,tokenization,stemming,bag_of_words
-from model import RNN
+from model import LSTM
 
-with open('data1.json.json', 'r') as instances:
+with open('data3.json', 'r') as instances:
     data=json.load(instances)
 
 word_list=[] #create an array with all the words
@@ -18,15 +18,15 @@ for i in data['data']:
     for user_response in i['user_responses']:
         normalized=normalization(user_response)
         words=tokenization(normalized)
-        word_list.extend(words)# not apeend becous dont want a arraylist in a array
+        word_list.extend(words)
         xy.append((words,tag)) #array of user responses with the respective tags
 
-word_list=[stemming(word)for word in word_list] # to remove the symbols
-word_list=sorted(set(word_list)) # to remove duplicate elements
+word_list=[stemming(word)for word in word_list]
+word_list=sorted(set(word_list))
 print(tags)
 print(word_list)
 print(xy)
-# train the data
+
 x_train=[]
 y_train=[]
 for(tokenized,tag) in xy:
@@ -62,15 +62,15 @@ hidden_size=4
 output_size=len(tags)
 input_size=len(inputs[0])
 seq_length=1
-num_layers=2
+num_layers=1
 num_classes=11
 dataset=chatData()
 
 train_loader=DataLoader(dataset=dataset,batch_size=batch_size,shuffle=True)
 device = torch.device("cpu")
-model=RNN(seq_length,input_size,hidden_size,num_layers,num_classes).to(device)
+model=LSTM(seq_length,input_size,hidden_size,num_layers,num_classes).to(device)
 
-num_epochs=4000
+num_epochs=2000
 learning_rate=0.001
 
 #Loss and optimizer
@@ -103,6 +103,6 @@ data={
     "tags":tags
 }
 
-FILE="dataserialized.pth"
+FILE="dataserialized3.pth"
 torch.save(data,FILE)
-print("Training complete, file saved to dataserialized.pth")
+print("Training complete, file saved to dataserialized3.pth")

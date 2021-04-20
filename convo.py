@@ -3,7 +3,7 @@ import numpy as np
 import json
 import torch
 import random
-from model import RNN
+from model import LSTM
 from pre_processing import bag_of_words, tokenization, normalization
 from flask import Flask, Response,render_template, jsonify, request
 from flask_cors import CORS, cross_origin
@@ -27,7 +27,7 @@ try:
     tags = dataserialized["tags"]
     model_state = dataserialized["model_state"]
 
-    model = RNN(seq_length, input_size, hidden_size, num_layers, num_classes).to(device)
+    model = LSTM(seq_length, input_size, hidden_size, num_layers, num_classes).to(device)
     model.load_state_dict(model_state)
     model.eval()
 except Exception as e:
@@ -74,7 +74,7 @@ def get_bot_response():
     prob = torch.softmax(output, dim=1)
     probability = prob[0][predicted.item()]
 
-    if (probability.item() > 0.90):
+    if (probability.item() > 0.80):
 
         for i in data['data']:
             if tag == i['tag']:
@@ -109,7 +109,7 @@ def get_bot_response2():
         tags = dataserialized["tags"]
         model_state = dataserialized["model_state"]
 
-        model = RNN(seq_length, input_size, hidden_size, num_layers, num_classes).to(device)
+        model = LSTM(seq_length, input_size, hidden_size, num_layers, num_classes).to(device)
         model.load_state_dict(model_state)
         model.eval()
     except Exception as e:
@@ -118,7 +118,7 @@ def get_bot_response2():
         bot = "Convo"
         user_data = request.json
 
-        sentence = user_data['message']  #
+        sentence = user_data['message']  # 
         sentence = normalization(sentence)
         sentence = tokenization(sentence)
         x = bag_of_words(sentence, word_list)
@@ -133,7 +133,7 @@ def get_bot_response2():
         prob = torch.softmax(output, dim=1)
         probability = prob[0][predicted.item()]
 
-        if (probability.item() > 0.90):
+        if (probability.item() > 0.80):
 
             for i in data['data']:
                 if tag == i['tag']:
@@ -163,7 +163,7 @@ def get_bot_response3():
         tags = dataserialized["tags"]
         model_state = dataserialized["model_state"]
 
-        model = RNN(seq_length, input_size, hidden_size, num_layers, num_classes).to(device)
+        model = LSTM(seq_length, input_size, hidden_size, num_layers, num_classes).to(device)
         model.load_state_dict(model_state)
         model.eval()
     except Exception as e:
@@ -172,13 +172,13 @@ def get_bot_response3():
         bot = "Convo"
         user_data = request.json
 
-        sentence = user_data['message']
+        sentence = user_data['message']  
         sentence = normalization(sentence)
         sentence = tokenization(sentence)
         x = bag_of_words(sentence, word_list)
         x = torch.from_numpy(x)
         x = x.reshape(-1, x.shape[0])
-        x = x.to(device)
+        x = x.to(device)  
 
         output, hidden = model(x)
         _, predicted = torch.max(output, dim=1)
@@ -187,7 +187,7 @@ def get_bot_response3():
         prob = torch.softmax(output, dim=1)
         probability = prob[0][predicted.item()]
 
-        if (probability.item() > 0.90):
+        if (probability.item() > 0.80):
 
             for i in data['data']:
                 if tag == i['tag']:
@@ -199,4 +199,4 @@ def get_bot_response3():
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(debug=True)

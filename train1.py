@@ -4,7 +4,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader,Dataset
 import numpy as np
 from pre_processing import normalization,tokenization,stemming,bag_of_words
-from model import RNN
+from model import LSTM
 
 with open('data3.json', 'r') as instances:
     data=json.load(instances)
@@ -68,7 +68,7 @@ dataset=chatData()
 
 train_loader=DataLoader(dataset=dataset,batch_size=batch_size,shuffle=True)
 device = torch.device("cpu")
-model=RNN(seq_length,input_size,hidden_size,num_layers,num_classes).to(device)
+model=LSTM(seq_length,input_size,hidden_size,num_layers,num_classes).to(device)
 
 num_epochs=4000
 learning_rate=0.001

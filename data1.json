@@ -20,6 +20,7 @@
         "tag":"goodbye",
         "user_responses":[
             "Thank you",
+            "Ok, thank you",
             "Bye",
             "Thank a lot!",
             "Goodbye!"
@@ -36,7 +37,9 @@
         "user_responses":[
             "What's on the menu?",
             "Do you have anything special?",
-            "What can I get?"
+            "What can I get?",
+            "Can I see the menu?",
+            "Menu please"
         ],
         "bot_responses":[
             "We have coffee and milkshakes.What would you like to have?"
@@ -60,7 +63,10 @@
             "Can I order a milkshake?",
             "Can I get a milkshake?",
             "Do you have any milkshakes?",
-            "Do you have Chocolate,Vanilla and Oreo milkshakes?"
+            "Do you have Chocolate,Vanilla and Oreo milkshakes?",
+            "What milkshakes are there?",
+            "What flavours are there?",
+            "What milkshake flavours are there?"
         ],
         "bot_responses":[
             "Yes, we have Chocolate,Vanilla and Oreo milkshakes."
@@ -69,8 +75,8 @@
     {
         "tag":"suggest",
         "user_responses":[
-            "What can I get?",
-            "Any suggestions?"
+            "Any suggestions?",
+            "What do you suggest?"
         ],
         "bot_responses":[
             "May I suggest a Black Coffee?",
@@ -82,7 +88,8 @@
         "tag":"price",
         "user_responses":[
             "How much is it?",
-            "What is the price of it?"
+            "What is the price of it?",
+            "How much?"
         ],
         "bot_responses":[
             "You can enjoy it at just Rs. 180 each",
@@ -107,6 +114,7 @@
             "Black coffee",
             "Iced Coffee",
             "Cappuccino",
+            "I want a",
             "I will have a coffee.",
             "I need a black coffee",
             "I want an iced coffee.",
@@ -121,13 +129,22 @@
             "One Cappuccino please",
             "One chocolate milkshake please",
             "Can I get 2 iced coffees?",
+            "I want 2 oreo milkshakes please",
             "Two iced coffees please",
             "Can I get three iced coffees?",
             "Can I get 4 oreo milkshakes please.",
             "Can I get four cappuccinos please.",
+            "Can I have",
             "Two cappuccinos please",
             "I need two cappuccinos",
-            "2 cappuccinos please"
+            "2 cappuccinos please",
+            "2 oreo milkshakes and ",
+            "One black coffee and ",
+            "I want 2 cappuccinos please",
+            "I want 4 black coffees please",
+            "I will get 3 black coffees.",
+            "Ok, I will get a",
+            "Ok, I will have a "
         ],
         "bot_responses":[
             "Sure! Anything else?"
@@ -150,7 +167,7 @@
             "That's all I need"
         ],
         "bot_responses":[
-            "Thank you for your order. Please wait for sometime"
+            "Thank you for your order. Please collect your order from the counter"
         ]
     }
     ]

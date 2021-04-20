@@ -24,7 +24,12 @@
             "Goodbye!",
             "Ok,see you!",
             "Ok, meet you there.",
-            "Bye, hope to see you there"
+            "Bye, hope to see you there",
+            "Ok,let's meet this Saturday",
+            "Ok, see you soon",
+            "Ok",
+            "Sure",
+            "Ok, sure"
         ],
         "bot_responses":[
             "Goodbye",
@@ -85,7 +90,8 @@
             "Are you from third year?",
             "Are you from fourth year?",
             "In what year are you currently in?",
-            "Are you in the first year?"
+            "Are you in the first year?",
+            "Are you in your second year?"
         ],
         "bot_responses":[
             "I'm currently in my second year."
@@ -102,7 +108,12 @@
             "My name is",
             "I am ",
             "I am , and you are?",
-            "My name is, What is yours?"
+            "I am , nice to meet you.",
+            "My name is, What is yours?",
+            "Hi, I am",
+            "Hi, I am , nice to meet you",
+            "Hello, I am",
+            "Hi, I am, you are?"
         ],
         "bot_responses":[
             "My name is Convo, nice to meet you!"
@@ -118,10 +129,12 @@
             "What is a  good club can I join here?",
             "What society can I join here?",
             "Any sport you are doing?",
-            "What sport should I play here?"
+            "What sport should I play here?",
+            "Nice to meet you too",
+            "Nice to meet you"
         ],
         "bot_responses":[
-            "You should try joining the Rotaract Club. I play Soccer, you can join too."
+            "You want to join the Rotaract Club? I play Soccer, you can join that too."
 
         ]
     },
@@ -131,21 +144,30 @@
             "Where is the best place to hang out?",
             "Do you know any cool places to hang out?",
             "Do you know any good places to visit around here?",
+            "Do you know any places I can go to?",
+            "You know any places I can visit?",
+            "Do you know any places I should visit?",
             "Do you know any places to hangout?",
             "Do you know any places we could meetup later?",
             "Where should we hangout later?",
             "Where should we meetup?",
             "Any places to hangout?",
             "We should meet up soon.",
+            "We should hangout sometime.",
+            "We should meetup sometime.",
+            "Hope we can meet again",
+            "Hope to meet you again.",
+            "Let's meetup again soon",
             "What can I do around here?",
             "How can I spend my free time here?",
             "Any places I should visit here?",
             "What fun places are around here.",
             "What places can you visit around here?",
-            "Any good places to visit?"
+            "Any good places to visit?",
+            "me too"
         ],
         "bot_responses":[
-            "There are some cool cafes nearby, hope we can meet up there soon. Also you should try going to the arcade closeby."
+            "There are some cool cafes nearby and also you should try going to the arcade closeby. Hope we can meet there soon."
         ]
     },
     {
@@ -153,20 +175,44 @@
         "user_responses":[   
             "Ok, I will.",
             "Ok, let's meet up there",
+            "Ok, let's meet there",
             "We should go there sometime",
             "You want to go there",
             "You want to come?",
             "Ok, you want to come?",
-            "Sure",
-            "Ok, sure",
             "Sure, want to come?",
+            "when?",
             "When can we meet again?",
             "When should we meet?",
             "So, when should we meetup?",
-            "When should we meetup?"
+            "When should we meetup?",
+            "Let's meet at the arcade.",
+            "Let's meet at the cafe.",
+            "Hope to see you soon.",
+            "Can we meetup this weekend?",
+            "Can we meetup soon?",
+            "Yeah, let's meetup",
+            "Yeah, we should meet",
+            "Yes, let's meet"
         ],
         "bot_responses":[
-            "Let's meet at the arcade this Saturday."
+            "Let's meet at the arcade this Saturday.",
+            "Let's meet at the cafe this Saturday.",
+            "See you soon!"
+        ]
+    },
+    {
+        "tag":"join",
+        "user_responses":[   
+            "I want to play soccer too",
+            "I like soccer",
+            "I'll join the rotaract club",
+            "I want to join",
+            "I want to play",
+            "I am going to join"
+        ],
+        "bot_responses":[
+            "Yeah, you can join"
         ]
     }
     ]
