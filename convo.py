@@ -55,7 +55,7 @@ def get_bot_response():
     bot = "Convo"
     user_data = request.json
 
-    sentence = user_data['message']#  while True:# response=input("You:")
+    sentence = user_data['message']
     sentence = normalization(sentence)
     sentence = tokenization(sentence)
     # print(sentence)
@@ -78,10 +78,6 @@ def get_bot_response():
 
         for i in data['data']:
             if tag == i['tag']:
-                # print(f"{bot}: {random.choice(i['bot_responses'])}")
-                #  response_payload = f"User: {userreply} \n{bot}: {random.choice(i['bot_responses'])}\n"
-                #  history.append(response_payload)
-                #  return Response(history,  mimetype='text/plain')
                 return jsonify(random.choice(i['bot_responses']))
     else:
         return jsonify("I do not understand...")

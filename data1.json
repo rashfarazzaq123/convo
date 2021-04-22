@@ -89,7 +89,9 @@
         "user_responses":[
             "How much is it?",
             "What is the price of it?",
-            "How much?"
+            "How much?",
+            "How much for the order?",
+            "How much is the order?"
         ],
         "bot_responses":[
             "You can enjoy it at just Rs. 180 each",
@@ -128,6 +130,13 @@
             "Oreo milkshake",
             "One Cappuccino please",
             "One chocolate milkshake please",
+            "Can I get an iced coffee?",
+            "Can I get a chocolate milkshake?",
+            "Can I get a cappuccino?",
+            "Can I get a black coffee?",
+            "Can I get a vanilla milkshake?",
+            "Can I get an oreo milkshake?",
+            "Can I get an iced coffee please.",
             "Can I get 2 iced coffees?",
             "I want 2 oreo milkshakes please",
             "Two iced coffees please",

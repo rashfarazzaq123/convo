@@ -47,7 +47,7 @@
             "Do you live closeby?"
         ],
         "bot_responses":[
-            "I live closeby."
+            "I live closeby"
         ]
     },
     {
@@ -179,6 +179,8 @@
             "We should go there sometime",
             "You want to go there",
             "You want to come?",
+            "You want to meet sometime.",
+            "You want to meetup sometime?",
             "Ok, you want to come?",
             "Sure, want to come?",
             "when?",
@@ -188,6 +190,8 @@
             "When should we meetup?",
             "Let's meet at the arcade.",
             "Let's meet at the cafe.",
+            "Let's meetup sometime",
+            "Let's have a meetup sometime",
             "Hope to see you soon.",
             "Can we meetup this weekend?",
             "Can we meetup soon?",
@@ -209,10 +213,14 @@
             "I'll join the rotaract club",
             "I want to join",
             "I want to play",
-            "I am going to join"
+            "I am going to join",
+            "I will join",
+            "How can I join?",
+            "How should I join?",
+            "From where can I join?"
         ],
         "bot_responses":[
-            "Yeah, you can join"
+            "Yeah, you can join by filling this form"
         ]
     }
     ]
