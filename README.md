@@ -12,3 +12,7 @@ Special Features in CONVO,
 ### backend technologies
 •	Python – pytorch libaray
 •	Algoritham - NLP,LSTM 
+
+https://user-images.githubusercontent.com/75743573/120898465-9c783280-c648-11eb-8812-9c3641129281.jpeg
+
+
